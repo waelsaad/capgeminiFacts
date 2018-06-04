@@ -66,7 +66,7 @@ class FactsViewController: UICollectionViewController, NetworkResponse {
     }
     
     // Refresh the UI and remove the refresh control
-    func refreshFactsUI() {
+    func refreshDisplay() {
         self.refreshControl.endRefreshing()
         self.cellSizeCache.removeAllObjects()
         self.collectionView?.reloadData()
@@ -91,7 +91,7 @@ class FactsViewController: UICollectionViewController, NetworkResponse {
         if !success {
             self.displayAlert("Error", message: error, okBlock: nil)
         }
-        refreshFactsUI()
+        refreshDisplay()
     }
     
     // Handle the layout on device rotation and based on dimentions
