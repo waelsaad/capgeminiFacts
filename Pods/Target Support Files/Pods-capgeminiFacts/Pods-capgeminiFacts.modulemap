@@ -1,0 +1,6 @@
+framework module Pods_capgeminiFacts {
+  umbrella header "Pods-capgeminiFacts-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,7 +3,7 @@
 //  capgeminiFacts
 //
 //  Created by Wael Saad on 6/4/18.
-//  Copyright © 2018 nettrinity.com.au. All rights reserved.
+//  Copyright © 2018 nettrinity.com.au All rights reserved.
 //
 
 import UIKit
@@ -87,7 +87,7 @@ class FactsViewController: UICollectionViewController, NetworkResponse {
         return initialImage.size
     }
     
-    func stateChanged(success: Bool, error: String) {
+    func stateUpdated(success: Bool, error: String) {
         if !success {
             self.displayAlert("Error", message: error, okBlock: nil)
         }

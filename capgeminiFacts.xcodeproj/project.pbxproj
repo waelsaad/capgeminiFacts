@@ -8,13 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		690205E920C5329C00535AFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690205E820C5329C00535AFB /* AppDelegate.swift */; };
-		690205EB20C5329C00535AFB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690205EA20C5329C00535AFB /* MasterViewController.swift */; };
-		690205ED20C5329C00535AFB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690205EC20C5329C00535AFB /* DetailViewController.swift */; };
-		690205F020C5329C00535AFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690205EE20C5329C00535AFB /* Main.storyboard */; };
-		690205F220C5329C00535AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690205F120C5329C00535AFB /* Assets.xcassets */; };
-		690205F520C5329C00535AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690205F320C5329C00535AFB /* LaunchScreen.storyboard */; };
 		6902060020C5329D00535AFB /* capgeminiFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690205FF20C5329D00535AFB /* capgeminiFactsTests.swift */; };
 		6902060B20C5329D00535AFB /* capgeminiFactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902060A20C5329D00535AFB /* capgeminiFactsUITests.swift */; };
+		6902062020C535A100535AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6902061B20C535A100535AFB /* LaunchScreen.storyboard */; };
+		6902063720C535CA00535AFB /* FactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902062520C535CA00535AFB /* FactDetailViewController.swift */; };
+		6902063820C535CA00535AFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6902062620C535CA00535AFB /* Main.storyboard */; };
+		6902063920C535CA00535AFB /* FactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902062720C535CA00535AFB /* FactsViewController.swift */; };
+		6902063A20C535CA00535AFB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902062920C535CA00535AFB /* Constants.swift */; };
+		6902063B20C535CA00535AFB /* FactWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902062B20C535CA00535AFB /* FactWebservice.swift */; };
+		6902063C20C535CA00535AFB /* String+URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902062D20C535CA00535AFB /* String+URLRequest.swift */; };
+		6902063D20C535CA00535AFB /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902062E20C535CA00535AFB /* ViewExtensions.swift */; };
+		6902063E20C535CA00535AFB /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902063020C535CA00535AFB /* Fact.swift */; };
+		6902063F20C535CA00535AFB /* FactCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902063220C535CA00535AFB /* FactCellViewModel.swift */; };
+		6902064020C535CA00535AFB /* FactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902063320C535CA00535AFB /* FactViewModel.swift */; };
+		6902064120C535CA00535AFB /* FactCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902063520C535CA00535AFB /* FactCollectionViewCell.swift */; };
+		6902064420C5395F00535AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6902061A20C535A100535AFB /* Assets.xcassets */; };
+		697D248420C53E5700DE4DCD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902062920C535CA00535AFB /* Constants.swift */; };
+		697D248620C53EB000DE4DCD /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902063020C535CA00535AFB /* Fact.swift */; };
+		697D248720C53EE200DE4DCD /* FactWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902062B20C535CA00535AFB /* FactWebservice.swift */; };
+		79F8774A6DD4F51CF8A8E144 /* Pods_capgeminiFacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7372ECD46B3C3835A471024A /* Pods_capgeminiFacts.framework */; };
+		888F0216FC475C8FF42F8D39 /* Pods_capgeminiFactsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E24A5BA1157C90A96988F5 /* Pods_capgeminiFactsUITests.framework */; };
+		D9461D3D517103C6DB70EAFE /* Pods_capgeminiFactsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95EA6256CE9541D048F1E89 /* Pods_capgeminiFactsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24D5DC7842F9E39640F77AFB /* Pods-capgeminiFacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-capgeminiFacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-capgeminiFacts/Pods-capgeminiFacts.release.xcconfig"; sourceTree = "<group>"; };
+		435C6A124EAA7CE5505AAA21 /* Pods-capgeminiFactsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-capgeminiFactsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-capgeminiFactsUITests/Pods-capgeminiFactsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		44BD2086A2C2E894332424F5 /* Pods-capgeminiFactsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-capgeminiFactsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-capgeminiFactsTests/Pods-capgeminiFactsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		59E24A5BA1157C90A96988F5 /* Pods_capgeminiFactsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_capgeminiFactsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D39C9B28F9AEF850F44B018 /* Pods-capgeminiFactsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-capgeminiFactsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-capgeminiFactsUITests/Pods-capgeminiFactsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		690205E520C5329C00535AFB /* capgeminiFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = capgeminiFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		690205E820C5329C00535AFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		690205EA20C5329C00535AFB /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		690205EC20C5329C00535AFB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		690205EF20C5329C00535AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		690205F120C5329C00535AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		690205F420C5329C00535AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		690205F620C5329C00535AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		690205FB20C5329D00535AFB /* capgeminiFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = capgeminiFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		690205FF20C5329D00535AFB /* capgeminiFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capgeminiFactsTests.swift; sourceTree = "<group>"; };
@@ -49,6 +63,23 @@
 		6902060620C5329D00535AFB /* capgeminiFactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = capgeminiFactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6902060A20C5329D00535AFB /* capgeminiFactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capgeminiFactsUITests.swift; sourceTree = "<group>"; };
 		6902060C20C5329D00535AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6902061A20C535A100535AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6902061C20C535A100535AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6902062520C535CA00535AFB /* FactDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactDetailViewController.swift; sourceTree = "<group>"; };
+		6902062620C535CA00535AFB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6902062720C535CA00535AFB /* FactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactsViewController.swift; sourceTree = "<group>"; };
+		6902062920C535CA00535AFB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6902062B20C535CA00535AFB /* FactWebservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactWebservice.swift; sourceTree = "<group>"; };
+		6902062D20C535CA00535AFB /* String+URLRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLRequest.swift"; sourceTree = "<group>"; };
+		6902062E20C535CA00535AFB /* ViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		6902063020C535CA00535AFB /* Fact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fact.swift; sourceTree = "<group>"; };
+		6902063220C535CA00535AFB /* FactCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactCellViewModel.swift; sourceTree = "<group>"; };
+		6902063320C535CA00535AFB /* FactViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactViewModel.swift; sourceTree = "<group>"; };
+		6902063520C535CA00535AFB /* FactCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactCollectionViewCell.swift; sourceTree = "<group>"; };
+		7372ECD46B3C3835A471024A /* Pods_capgeminiFacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_capgeminiFacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC573BEAB822499071EE9162 /* Pods-capgeminiFacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-capgeminiFacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-capgeminiFacts/Pods-capgeminiFacts.debug.xcconfig"; sourceTree = "<group>"; };
+		C189A38EAB3D0A6AD7DB30E5 /* Pods-capgeminiFactsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-capgeminiFactsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-capgeminiFactsTests/Pods-capgeminiFactsTests.release.xcconfig"; sourceTree = "<group>"; };
+		F95EA6256CE9541D048F1E89 /* Pods_capgeminiFactsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_capgeminiFactsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F8774A6DD4F51CF8A8E144 /* Pods_capgeminiFacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9461D3D517103C6DB70EAFE /* Pods_capgeminiFactsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +103,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888F0216FC475C8FF42F8D39 /* Pods_capgeminiFactsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17EE49BFF775A90B49CDDD3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7372ECD46B3C3835A471024A /* Pods_capgeminiFacts.framework */,
+				F95EA6256CE9541D048F1E89 /* Pods_capgeminiFactsTests.framework */,
+				59E24A5BA1157C90A96988F5 /* Pods_capgeminiFactsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3006CEBDA733C92E28B9C592 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC573BEAB822499071EE9162 /* Pods-capgeminiFacts.debug.xcconfig */,
+				24D5DC7842F9E39640F77AFB /* Pods-capgeminiFacts.release.xcconfig */,
+				44BD2086A2C2E894332424F5 /* Pods-capgeminiFactsTests.debug.xcconfig */,
+				C189A38EAB3D0A6AD7DB30E5 /* Pods-capgeminiFactsTests.release.xcconfig */,
+				435C6A124EAA7CE5505AAA21 /* Pods-capgeminiFactsUITests.debug.xcconfig */,
+				5D39C9B28F9AEF850F44B018 /* Pods-capgeminiFactsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		690205DC20C5329C00535AFB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +140,8 @@
 				690205FE20C5329D00535AFB /* capgeminiFactsTests */,
 				6902060920C5329D00535AFB /* capgeminiFactsUITests */,
 				690205E620C5329C00535AFB /* Products */,
+				3006CEBDA733C92E28B9C592 /* Pods */,
+				17EE49BFF775A90B49CDDD3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +158,15 @@
 		690205E720C5329C00535AFB /* capgeminiFacts */ = {
 			isa = PBXGroup;
 			children = (
-				690205E820C5329C00535AFB /* AppDelegate.swift */,
-				690205EA20C5329C00535AFB /* MasterViewController.swift */,
-				690205EC20C5329C00535AFB /* DetailViewController.swift */,
-				690205EE20C5329C00535AFB /* Main.storyboard */,
-				690205F120C5329C00535AFB /* Assets.xcassets */,
-				690205F320C5329C00535AFB /* LaunchScreen.storyboard */,
+				6902061820C5355C00535AFB /* AppDelegate */,
+				6902062820C535CA00535AFB /* Constants */,
+				6902062220C535CA00535AFB /* Controllers */,
+				6902062C20C535CA00535AFB /* Extensions */,
+				6902062F20C535CA00535AFB /* Model */,
+				6902063120C535CA00535AFB /* View Models */,
+				6902063420C535CA00535AFB /* Views */,
+				6902062A20C535CA00535AFB /* Web Services */,
+				6902061920C535A100535AFB /* Assets */,
 				690205F620C5329C00535AFB /* Info.plist */,
 			);
 			path = capgeminiFacts;
@@ -128,6 +190,83 @@
 			path = capgeminiFactsUITests;
 			sourceTree = "<group>";
 		};
+		6902061820C5355C00535AFB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				690205E820C5329C00535AFB /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6902061920C535A100535AFB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6902061A20C535A100535AFB /* Assets.xcassets */,
+				6902061B20C535A100535AFB /* LaunchScreen.storyboard */,
+				6902062620C535CA00535AFB /* Main.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6902062220C535CA00535AFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6902062520C535CA00535AFB /* FactDetailViewController.swift */,
+				6902062720C535CA00535AFB /* FactsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6902062820C535CA00535AFB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6902062920C535CA00535AFB /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		6902062A20C535CA00535AFB /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				6902062B20C535CA00535AFB /* FactWebservice.swift */,
+			);
+			path = "Web Services";
+			sourceTree = "<group>";
+		};
+		6902062C20C535CA00535AFB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6902062D20C535CA00535AFB /* String+URLRequest.swift */,
+				6902062E20C535CA00535AFB /* ViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6902062F20C535CA00535AFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6902063020C535CA00535AFB /* Fact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6902063120C535CA00535AFB /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				6902063220C535CA00535AFB /* FactCellViewModel.swift */,
+				6902063320C535CA00535AFB /* FactViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		6902063420C535CA00535AFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6902063520C535CA00535AFB /* FactCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6902060F20C5329D00535AFB /* Build configuration list for PBXNativeTarget "capgeminiFacts" */;
 			buildPhases = (
+				CDFB8F10E0EC793855F85761 /* [CP] Check Pods Manifest.lock */,
 				690205E120C5329C00535AFB /* Sources */,
 				690205E220C5329C00535AFB /* Frameworks */,
 				690205E320C5329C00535AFB /* Resources */,
+				ADF067A686896A5395AF06E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6902061220C5329D00535AFB /* Build configuration list for PBXNativeTarget "capgeminiFactsTests" */;
 			buildPhases = (
+				449F2FD2FFA7E2EEA4339F09 /* [CP] Check Pods Manifest.lock */,
 				690205F720C5329D00535AFB /* Sources */,
 				690205F820C5329D00535AFB /* Frameworks */,
 				690205F920C5329D00535AFB /* Resources */,
@@ -170,6 +312,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6902061520C5329D00535AFB /* Build configuration list for PBXNativeTarget "capgeminiFactsUITests" */;
 			buildPhases = (
+				7055FF0F9D92BE9052AF1145 /* [CP] Check Pods Manifest.lock */,
 				6902060220C5329D00535AFB /* Sources */,
 				6902060320C5329D00535AFB /* Frameworks */,
 				6902060420C5329D00535AFB /* Resources */,
@@ -235,9 +378,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				690205F520C5329C00535AFB /* LaunchScreen.storyboard in Resources */,
-				690205F220C5329C00535AFB /* Assets.xcassets in Resources */,
-				690205F020C5329C00535AFB /* Main.storyboard in Resources */,
+				6902063820C535CA00535AFB /* Main.storyboard in Resources */,
+				6902062020C535A100535AFB /* LaunchScreen.storyboard in Resources */,
+				6902064420C5395F00535AFB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +400,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		449F2FD2FFA7E2EEA4339F09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-capgeminiFactsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7055FF0F9D92BE9052AF1145 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-capgeminiFactsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADF067A686896A5395AF06E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-capgeminiFacts/Pods-capgeminiFacts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-capgeminiFacts/Pods-capgeminiFacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDFB8F10E0EC793855F85761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-capgeminiFacts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		690205E120C5329C00535AFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				690205ED20C5329C00535AFB /* DetailViewController.swift in Sources */,
-				690205EB20C5329C00535AFB /* MasterViewController.swift in Sources */,
+				6902064120C535CA00535AFB /* FactCollectionViewCell.swift in Sources */,
+				6902063F20C535CA00535AFB /* FactCellViewModel.swift in Sources */,
+				6902063C20C535CA00535AFB /* String+URLRequest.swift in Sources */,
+				6902063720C535CA00535AFB /* FactDetailViewController.swift in Sources */,
+				6902063E20C535CA00535AFB /* Fact.swift in Sources */,
+				6902063920C535CA00535AFB /* FactsViewController.swift in Sources */,
+				6902064020C535CA00535AFB /* FactViewModel.swift in Sources */,
+				6902063B20C535CA00535AFB /* FactWebservice.swift in Sources */,
+				6902063A20C535CA00535AFB /* Constants.swift in Sources */,
+				6902063D20C535CA00535AFB /* ViewExtensions.swift in Sources */,
 				690205E920C5329C00535AFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +500,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697D248720C53EE200DE4DCD /* FactWebservice.swift in Sources */,
 				6902060020C5329D00535AFB /* capgeminiFactsTests.swift in Sources */,
+				697D248420C53E5700DE4DCD /* Constants.swift in Sources */,
+				697D248620C53EB000DE4DCD /* Fact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,18 +531,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		690205EE20C5329C00535AFB /* Main.storyboard */ = {
+		6902061B20C535A100535AFB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				690205EF20C5329C00535AFB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		690205F320C5329C00535AFB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				690205F420C5329C00535AFB /* Base */,
+				6902061C20C535A100535AFB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -367,7 +590,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -418,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -428,6 +651,7 @@
 		};
 		6902061020C5329D00535AFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC573BEAB822499071EE9162 /* Pods-capgeminiFacts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +666,7 @@
 		};
 		6902061120C5329D00535AFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24D5DC7842F9E39640F77AFB /* Pods-capgeminiFacts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +681,7 @@
 		};
 		6902061320C5329D00535AFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44BD2086A2C2E894332424F5 /* Pods-capgeminiFactsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +698,7 @@
 		};
 		6902061420C5329D00535AFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C189A38EAB3D0A6AD7DB30E5 /* Pods-capgeminiFactsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +715,7 @@
 		};
 		6902061620C5329D00535AFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 435C6A124EAA7CE5505AAA21 /* Pods-capgeminiFactsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +731,7 @@
 		};
 		6902061720C5329D00535AFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D39C9B28F9AEF850F44B018 /* Pods-capgeminiFactsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

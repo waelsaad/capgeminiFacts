@@ -1,0 +1,6 @@
+framework module Pods_capgeminiFactsTests {
+  umbrella header "Pods-capgeminiFactsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

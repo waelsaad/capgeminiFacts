@@ -1,9 +1,9 @@
 //
 //  capgeminiFactsUITests.swift
-//  capgeminiFactsUITests
+//  capgeminiFactsTests
 //
-//  Created by r00tdvd on 6/4/18.
-//  Copyright © 2018 r00tdvd. All rights reserved.
+//  Created by Wael Saad on 6/4/18.
+//  Copyright © 2018 nettrinity.com.au All rights reserved.
 //
 
 import XCTest

@@ -2,8 +2,8 @@
 //  capgeminiFactsTests.swift
 //  capgeminiFactsTests
 //
-//  Created by r00tdvd on 6/4/18.
-//  Copyright © 2018 r00tdvd. All rights reserved.
+//  Created by Wael Saad on 6/4/18.
+//  Copyright © 2018 nettrinity.com.au All rights reserved.
 //
 
 import XCTest
@@ -20,17 +20,5 @@ class capgeminiFactsTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }
+
